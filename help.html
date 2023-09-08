@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HouseFashion</title>
+    <link rel="shortcut icon" href="img/header-icon.svg">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="top-headline">
+        <h1>Welcome to Store! Wrap new offers/gift every single day on Weekends. New Coupon Code:  FH024</h1>
+    </div>
+
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="logo">
+                        <a href="index.html"><img src="img/main-logo-revise-1.svg" width="100%"></a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="search">
+                        <form>
+                            <input type="text" placeholder="Search">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </div> 
+                <div class="col-md-2">
+                    <div class="location text-center">
+                        <a class="" href="#open-modal"><i class="fa-solid fa-location-dot"></i>Location</a>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="option">
+                        <div class="login-click">
+                            <a class="" href="#sign-in-modal"><i class="fa-solid fa-user"></i></a>
+                        </div>
+                        <div class="add-cart">
+                          <a  class="" data-toggle="modal" data-target="#cart"><i class="fa-solid fa-cart-shopping"><span class="total-count"></span></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------- <div class="menu"> --------->
+
+
+
+        <nav class="navbar navbar-expand-md navbar-dark menu">
+        <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item active"><a class="nav-link" href="about.html">About</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown04">
+              <a class="dropdown-item" href="shop.html">Men</a>
+              <a class="dropdown-item" href="shop.html">Woman</a>
+              <a class="dropdown-item" href="shop.html">Kids</a>
+              <a class="dropdown-item" href="shop.html">Baby</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kids</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown04">
+              <a class="dropdown-item" href="shop.html">Kid's Fashion</a>
+              <a class="dropdown-item" href="shop.html">Cotton Mittens</a>
+              <a class="dropdown-item" href="shop.html">Baby Shoe</a>
+              <a class="dropdown-item" href="shop.html">Sleepsuit</a>
+              <a class="dropdown-item" href="shop.html">Watch</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Footwear</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown04">
+              <a class="dropdown-item" href="shop.html">Sneakers</a>
+              <a class="dropdown-item" href="shop.html">Outdoor Shoes</a>
+              <a class="dropdown-item" href="shop.html">Trekking Footwear</a>
+              <a class="dropdown-item" href="shop.html">Running Shoes</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accessories</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown04">
+              <a class="dropdown-item" href="shop.html">Watch</a>
+              <a class="dropdown-item" href="shop.html">Sunglasses</a>
+              <a class="dropdown-item" href="shop.html">Caps</a>
+              <a class="dropdown-item" href="shop.html">Scarf</a>
+              <a class="dropdown-item" href="shop.html">Earrings</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown04">
+              <a class="dropdown-item" href="sign-in.html">Sign In</a>
+              <a class="dropdown-item" href="sign-up.html">Sign Up</a>
+            </div>
+          </li>
+
+          <li class="nav-item active"><a class="nav-link" href="help.html">Services</a></li>
+          <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+          
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+
+    <!-- </div> -->
+
+
+
+    <div class="help-page my-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"><h2>Hello. What can we help you with?</h2></div>
+                <div class="col-md-4">
+                    <div class="help-option" href="index.html">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <h4>Your Orders</h4>
+                        <ul>
+                            <li><a href="#">Track packages</a></li>
+                            <li><a href="#">Edit or cancel orders</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="help-option" href="index.html">
+                        <i class="fa-solid fa-truck"></i>
+                        <h4>Returns and Refunds</h4>
+                        <ul>
+                            <li><a href="#"> Return or exchange items</a></li>
+                            <li><a href="#">Print return mailing labels</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="help-option" href="index.html">
+                        <i class="fa-solid fa-house-flag"></i>
+                        <h4>Manage Addresses</h4>
+                        <ul>
+                            <li><a href="#"> Update your addresses</a></li>
+                            <li><a href="#"> Add address, landmark details</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="help-option" href="index.html">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                        <h4>Old order</h4>
+                        <ul>
+                            <li><a href="#">View/Download old Invoice</a></li>
+                            <li><a href="#">Purchase history</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="help-option" href="index.html">
+                        <i class="fa-solid fa-circle-user"></i>
+                        <h4>Account Settings </h4>
+                        <ul>
+                            <li><a href="#">Change your email or password</a></li>
+                            <li><a href="#">Update login information</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="help-option" href="index.html">
+                        <i class="fa-regular fa-credit-card"></i>
+                        <h4> Payment Settings</h4>
+                        <ul>
+                            <li><a href="#">Add or edit payment methods</a></li>
+                            <li><a href="#">Change expired card</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="Faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <div id="accordion">
+  <div class="Faq-card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          What are the return guidelines? 
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+            <ul style="list-style: decimal; padding-left: 2%;">
+                <li>Your address and the item that you wish to return must be eligible for return.</li>
+                <li>If the return is not eligible for Pickup, a Self-Return option will be provided. For more details, please see our Return Pick up and Self Ship Guidelines.</li>
+                <li>Once the return is processed, you will, in accordance with Amazon.in Refund Policy, be issued a refund to your original payment method.</li>    
+            </ul>
+      </div>
+    </div>
+  </div>
+  <div class="Faq-card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Can I change or modify orders that are already placed?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        You would not be able to change or modify the number of items once you have already placed an order. You can place another fresh order with the desired modifications. However, you can change your shipping preferences in Your Account at any time after placing your order as long as the order hasn't entered the shipping process yet.
+      </div>
+    </div>
+  </div>
+  <div class="Faq-card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         Why am I unable to place orders?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        <p>This could be due to the following issues:<br>
+            <ul style="list-style: disc; padding-left: 2%;">
+                <li>Check if there is a Payment decline. Please click here to know more about Payment issues.</li>
+                <li>The item you have selected is out of stock.</li>
+                <li>There is some technical or internet connectivity issue.</li>
+                <li>Undeliverable to selected location/pincode.</li>
+                <li>Check if there is a quantity limit.</li>
+                <li>Sometimes when FBA and seller fulfilled items are clubbed together.</li>
+            </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="Faq-card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+         What is the time window for initiating a replacement?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+      <div class="card-body">
+        <p>The time interval for initiating a replacement is the same as the return window for that product category. For example, if the product has a return window of 30 days, a replacement will also have to be initiated within the same period of 30 days. If the item to be replaced happens to be out of stock, a refund will be generated instead.</p>
+        <p>Based on the courier's availability on your pin code, the fastest shipping option is chosen automatically</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="Faq-card">
+    <div class="card-header" id="headingFive">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+         What to do if you receive a damaged, defective or wrong product?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+      <div class="card-body">
+         If you are not happy with the product quality, you can return or replace the product. You can return any item that is eligible for return and its return window has not expired. Replacement or exchange of products is based in availability of products. There are different processes of return and replacement for Amazon fulfilled products and third-party fulfilled products. Check the product detail page to know about the seller of the product.
+      </div>
+    </div>
+  </div>
+
+  <div class="Faq-card">
+    <div class="card-header" id="headingsix">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+            Payment Issues
+        </button>
+      </h5>
+    </div>
+    <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordion">
+      <div class="card-body">
+        <p>Payments made on Amazon.in can sometimes fail or remain in a pending stage. If you are facing this issue, you have the option to revise your payment.</p>
+        <p> Payments can fail for the following reasons: <br>
+            <ul style="list-style: disc; padding-left: 2%;">
+                <li> You enter incorrect credit or debit card details, e.g. name on the card, card number, CVV, 3D secure PIN and expiry date. In case of an American Express card, your transaction can fail if your billing address PIN code is incorrect.</li>
+                <li>You provide card details that are no longer valid or need to be updated.</li>
+                <li>Your bank is going through an outage.</li>
+                <li>You close or refresh the page or go back to the previous page while the transaction is being processed by your bank.</li>
+                <li>The connection between Amazon and your bank fails due to some technical issues and the transaction cannot be completed.</li>
+                <li>Your card may be blocked for online transactions.</li>
+            </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <!--     footer     -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Get to know us</h3>
+                    <ul>
+                        <li><a href="about.html">Company</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="about.html">Blog</a></li>
+                        <li><a href="help.html">Help Center</a></li>
+                        <li><a href="about.html">Our Value</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h3>For Consumers</h3>
+                    <ul>
+                        <li><a href="help.html">Payments</a></li>
+                        <li><a href="help.html">Shipping</a></li>
+                        <li><a href="help.html">Product Returns</a></li>
+                        <li><a href="help.html">FAQ</a></li>
+                        <li><a href="help.html">Shop Checkout</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h3>Programs</h3>
+                    <ul>
+                        <li><a href="#/">HouseFashion programs</a></li>
+                        <li><a href="#/">Gift Cards</a></li>
+                        <li><a href="#/">Promos & Coupons</a></li>
+                        <li><a href="#/">HouseFashion Ads</a></li>
+                        <li><a href="#/">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="newsletter">
+                    <h3>Newsletter</h3>
+                  <p>New offer or big discounts. Never spam.</p>
+                  <form>
+                    <input type="text" placeholder="Enter Email">
+                    <button type="submit" >Subscribe</button>
+                  </form>
+                  </div>
+              </div>
+
+            <div class="col-md-12 border my-4"></div>
+
+
+           <!-- Copyright & payments link -->
+
+
+            <div class="col-md-6">
+            <div class="Payments">
+                 <ul>
+                    <li><a href="#" style="color: #fff !important;">Payment Partners</a></li>
+                    <li><a href="#"><i class="fa-brands fa-cc-visa"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-cc-paypal"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-google-pay"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-apple-pay"></i></a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="social">
+                 <ul>
+                    <li><a href="#" style="color: #fff !important;">Follow Us</a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.twitter.com/" target="_blank" title="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank" title="Youtube"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            </div>
+            </div>
+        </div>
+        <center>
+            <p style="color:#fff; margin-top: 1%;">Copyright © Design By Yatin Mhatre. All rights reserved. </p>
+        </center>
+    </footer>
+
+<!-- ===================== modal ===================== -->
+
+
+
+<div id="open-modal" class="test-window">
+  <div class="test-2">
+    <a href="#" title="Close" class="test-close">Close</a>
+    <h3>Choose your Delivery Location</h3>
+    <p>Enter your address and we will specify the offer you area.</p>
+    <div class="location-search my-1"><input type="text" placeholder="Search your area"></div>
+    <div class="label-button"><label style="margin-top: 2%;">Select Location</label><button style="float:right;">Clear All</button></div>
+    <div class="location-list">
+      <div class="City mubaiiii">New York</div>
+      <div class="City">Houston</div>
+      <div class="City">Austin</div>
+      <div class="City">Denver</div>
+      <div class="City">Atlanta</div>
+  </div>
+  </div>
+</div>
+
+
+
+<div id="sign-in-modal" class="sign-window">
+  <div class="sign-in">
+    <a href="#" title="Close" class="sign-close">Close</a>
+        
+    <div class="sign-form">
+      <form style="width: 100%;">
+          <h2>Sign in HouseFashion</h2>
+          <p>Welcome back to HouseFashion Enter your email to get started.</p>
+          <input type="text" placeholder="Email">
+          <input type="Password" placeholder="Enter Password">
+          <label style="margin: 0;"><input type="checkbox" name=""> Remember me </label>
+          <label style="margin: 0;"> Forgot password?<a href="#"> Reset It</a></label>
+          <button style="margin-top: 4%;" type="submit">Sign In</button>
+          <label> Don’t have an account? <a href="#"> Sign Up</a></label>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== modal ===================== -->
+
+
+<!-- add to cart modal -->
+
+
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="false">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="show-cart table">
+          
+        </table>
+        <div>Total price: $<span class="total-cart"></span></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Order now</button>
+        <button class="clear-cart btn btn-danger">Clear Cart</button>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<a href="https://api.whatsapp.com/send?phone=123456789&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+<i class="fa-brands fa-whatsapp my-float"></i>
+</a>
+
+<a id="button"></a>
+
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+</html>

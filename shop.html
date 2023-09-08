@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HouseFashion</title>
+    <link rel="shortcut icon" href="img/header-icon.svg">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <div class="top-headline">
+        <h1>Welcome to Store! Wrap new offers/gift every single day on Weekends. New Coupon Code:  FH024</h1>
+    </div>
+
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="logo">
+                        <a href="index.html"><img src="img/main-logo-revise-1.svg" width="100%"></a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="search">
+                        <form>
+                            <input type="text" placeholder="Search">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </div> 
+                <div class="col-md-2">
+                    <div class="location text-center">
+                        <a class="" href="#open-modal"><i class="fa-solid fa-location-dot"></i>Location</a>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="option">
+                        <div class="login-click">
+                            <a class="" href="#sign-in-modal"><i class="fa-solid fa-user"></i></a>
+                        </div>
+                        <div class="add-cart">
+                          <a  class="" data-toggle="modal" data-target="#cart"><i class="fa-solid fa-cart-shopping"><span class="total-count"></span></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------- <div class="menu"> --------->
+
+
+
+        <nav class="navbar navbar-expand-md navbar-dark menu">
+        <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item active"><a class="nav-link" href="about.html">About</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown04">
+              <a class="dropdown-item" href="shop.html">Men</a>
+              <a class="dropdown-item" href="shop.html">Woman</a>
+              <a class="dropdown-item" href="shop.html">Kids</a>
+              <a class="dropdown-item" href="shop.html">Baby</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kids</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown04">
+              <a class="dropdown-item" href="shop.html">Kid's Fashion</a>
+              <a class="dropdown-item" href="shop.html">Cotton Mittens</a>
+              <a class="dropdown-item" href="shop.html">Baby Shoe</a>
+              <a class="dropdown-item" href="shop.html">Sleepsuit</a>
+              <a class="dropdown-item" href="shop.html">Watch</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Footwear</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown04">
+              <a class="dropdown-item" href="shop.html">Sneakers</a>
+              <a class="dropdown-item" href="shop.html">Outdoor Shoes</a>
+              <a class="dropdown-item" href="shop.html">Trekking Footwear</a>
+              <a class="dropdown-item" href="shop.html">Running Shoes</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accessories</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown04">
+              <a class="dropdown-item" href="shop.html">Watch</a>
+              <a class="dropdown-item" href="shop.html">Sunglasses</a>
+              <a class="dropdown-item" href="shop.html">Caps</a>
+              <a class="dropdown-item" href="shop.html">Scarf</a>
+              <a class="dropdown-item" href="shop.html">Earrings</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown04">
+              <a class="dropdown-item" href="sign-in.html">Sign In</a>
+              <a class="dropdown-item" href="sign-up.html">Sign Up</a>
+            </div>
+          </li>
+
+          <li class="nav-item active"><a class="nav-link" href="help.html">Services</a></li>
+          <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+          
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+    <!-- </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container my-3 display-resposive">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Featured Categories</h2>
+        </div>
+
+        <div class="main-slider">
+            <div class="slider slider-nav">
+                <div class="col-md-2"><img src="img/shirt.svg" >
+                    <h1 class="text-center slider-option-text">Shirt</h1>
+                </div>
+                <div class="col-md-2"><img src="img/t-shirt.svg">
+                    <h1 class="text-center slider-option-text">T-Shirt</h1>
+                </div>
+                <div class="col-md-2"><img src="img/cap.svg" >
+                    <h1 class="text-center slider-option-text">Cap</h1>
+                </div>
+                <div class="col-md-2"><img src="img/hoddie.svg" >
+                    <h1 class="text-center slider-option-text">hoddie</h1>
+                </div>
+                <div class="col-md-2"><img src="img/dress.svg" >
+                    <h1 class="text-center slider-option-text">dress</h1>
+                </div>
+                <div class="col-md-2"><img src="img/jeans.svg" >
+                    <h1 class="text-center slider-option-text">jeans</h1>
+                </div>
+                <div class="col-md-2"><img src="img/jacket.svg" >
+                    <h1 class="text-center slider-option-text">jacket</h1>
+                </div>
+                <div class="col-md-2"><img src="img/joggers.svg" >
+                    <h1 class="text-center slider-option-text">joggers</h1>
+                </div>
+                <div class="col-md-2"><img src="img/shoes.svg" >
+                    <h1 class="text-center slider-option-text">shoes</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="img/lady-3.svg" alt="Card image cap">
+                        <div class="product-text">
+                            <p>Coats</p>
+                            <h1>Women's Over Coat</h1>
+                            <h2><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>&nbsp;&nbsp;4.5 (109)</h2>
+                            <h3>$46</h3>
+                        </div>
+                        <div class="product-add">
+                          <a href="#/" data-name="womens Over Coat" data-price="46" class="add-to-cart"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-item">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="img/lady-5.svg" alt="Card image cap">
+                        <div class="product-text">
+                            <p>Top</p>
+                            <h1>Dark Green Lace Top</h1>
+                            <h2><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>&nbsp;&nbsp;4.1 (339)</h2>
+                            <h3>$29</h3>
+                        </div>
+                        <div class="product-add">
+                          <a href="#/" data-name="Dark Green Lace Top" data-price="29" class="add-to-cart"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-item">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="img/lady-2.svg" alt="Card image cap">
+                        <div class="product-text">
+                            <p>T-shirt</p>
+                            <h1>Women's Full Sleeve T-Shirts</h1>
+                            <h2><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>&nbsp;&nbsp;3.9 (189)</h2>
+                            <h3>$18</h3>
+                        </div>
+                        <div class="product-add">
+                          <a href="#/" data-name="Women's Full Sleeve T-Shirts" data-price="18" class="add-to-cart"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-item">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="img/lady-1.svg" alt="Card image cap">
+                        <div class="product-text">
+                            <p>Sweatshirt</p>
+                            <h1>Women's Sweatshirt</h1>
+                            <h2><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>&nbsp;&nbsp;4.5 (129)</h2>
+                            <h3>$25</h3>
+                        </div>
+                        <div class="product-add">
+                          <a href="#/" data-name="Women's Sweatshirt" data-price="25" class="add-to-cart"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-item">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="img/men-8.svg" alt="Card image cap">
+                        <div class="product-text">
+                            <p>Footwear</p>
+                            <h1>Adidas Yeezy Boost 350</h1>
+                            <h2><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>&nbsp;&nbsp;4.6 (479)</h2>
+                            <h3>$9</h3>
+                        </div>
+                        <div class="product-add">
+                          <a href="#/" data-name="Adidas Yeezy Boost 350" data-price="9" class="add-to-cart"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-item">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="img/men-10.svg" alt="Card image cap">
+                        <div class="product-text">
+                            <p>Watch</p>
+                            <h1>Watch-GW0452L1</h1>
+                            <h2><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>&nbsp;&nbsp;4.2 (205)</h2>
+                            <h3>$20</h3>
+                        </div>
+                        <div class="product-add">
+                          <a href="#/" data-name="Watch-GW0452L1" data-price="20" class="add-to-cart"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-item">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="img/men-3.svg" alt="Card image cap">
+                        <div class="product-text">
+                            <p>Jeans</p>
+                            <h1>Cotton Spandex Skinny Jeans</h1>
+                            <h2><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>&nbsp;&nbsp;4.5 (89)</h2>
+                            <h3>$36</h3>
+                        </div>
+                        <div class="product-add">
+                          <a href="#/" data-name="Cotton Spandex Skinny Jeans" data-price="36" class="add-to-cart"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-item">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="img/lady-4.svg" alt="Card image cap">
+                        <div class="product-text">
+                            <p>Coats</p>
+                            <h1>Women's A-Line Coat</h1>
+                            <h2><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>&nbsp;&nbsp;4.1 (229)</h2>
+                            <h3>$42</h3>
+                        </div>
+                        <div class="product-add">
+                          <a href="#/" data-name="Women's A-Line Coat" data-price="42" class="add-to-cart"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-item">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="img/men-2.svg" alt="Card image cap">
+                        <div class="product-text">
+                            <p>T-shirt</p>
+                            <h1>Cotton Designer T-Shirt</h1>
+                            <h2><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>&nbsp;&nbsp;4.5 (129)</h2>
+                            <h3>$25</h3>
+                        </div>
+                        <div class="product-add">
+                          <a href="#/" data-name="Cotton Designer T-Shirt" data-price="25" class="add-to-cart"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-item">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="img/men-1.svg" alt="Card image cap">
+                        <div class="product-text">
+                            <p>Coats</p>
+                            <h1>MENJESTIC Party Blazer</h1>
+                            <h2><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>&nbsp;&nbsp;4.5 (149)</h2>
+                            <h3>$49</h3>
+                        </div>
+                        <div class="product-add">
+                          <a href="#/" data-name="MENJESTIC Party Blazer" data-price="49" class="add-to-cart"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container my-2">
+        <div class="row">
+            <div class="col-md-12">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination pagination-lg">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">.</a></li>
+                      <li class="page-item"><a class="page-link" href="#">.</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+
+
+
+
+
+
+
+
+
+<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Get to know us</h3>
+                    <ul>
+                        <li><a href="about.html">Company</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="about.html">Blog</a></li>
+                        <li><a href="help.html">Help Center</a></li>
+                        <li><a href="about.html">Our Value</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h3>For Consumers</h3>
+                    <ul>
+                        <li><a href="help.html">Payments</a></li>
+                        <li><a href="help.html">Shipping</a></li>
+                        <li><a href="help.html">Product Returns</a></li>
+                        <li><a href="help.html">FAQ</a></li>
+                        <li><a href="help.html">Shop Checkout</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h3>Programs</h3>
+                    <ul>
+                        <li><a href="#/">HouseFashion programs</a></li>
+                        <li><a href="#/">Gift Cards</a></li>
+                        <li><a href="#/">Promos & Coupons</a></li>
+                        <li><a href="#/">HouseFashion Ads</a></li>
+                        <li><a href="#/">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="newsletter">
+                    <h3>Newsletter</h3>
+                  <p>New offer or big discounts. Never spam.</p>
+                  <form>
+                    <input type="text" placeholder="Enter Email">
+                    <button type="submit" >Subscribe</button>
+                  </form>
+                  </div>
+              </div>
+
+            <div class="col-md-12 border my-4"></div>
+
+
+           <!-- Copyright & payments link -->
+
+
+            <div class="col-md-6">
+            <div class="Payments">
+                 <ul>
+                    <li><a href="#" style="color: #fff !important;">Payment Partners</a></li>
+                    <li><a href="#"><i class="fa-brands fa-cc-visa"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-cc-paypal"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-google-pay"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-apple-pay"></i></a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="social">
+                 <ul>
+                    <li><a href="#" style="color: #fff !important;">Follow Us</a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.twitter.com/" target="_blank" title="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank" title="Youtube"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            </div>
+            </div>
+        </div>
+        <center>
+            <p style="color:#fff; margin-top: 1%;">Copyright © Design By Yatin Mhatre. All rights reserved. </p>
+        </center>
+    </footer>
+
+
+
+<!-- ===================== modal ===================== -->
+
+
+
+<div id="open-modal" class="test-window">
+  <div class="test-2">
+    <a href="#" title="Close" class="test-close">Close</a>
+    <h3>Choose your Delivery Location</h3>
+    <p>Enter your address and we will specify the offer you area.</p>
+    <div class="location-search my-1"><input type="text" placeholder="Search your area"></div>
+    <div class="label-button"><label style="margin-top: 2%;">Select Location</label><button style="float:right;">Clear All</button></div>
+    <div class="location-list">
+      <div class="City mubaiiii">New York</div>
+      <div class="City">Houston</div>
+      <div class="City">Austin</div>
+      <div class="City">Denver</div>
+      <div class="City">Atlanta</div>
+  </div>
+  </div>
+</div>
+
+
+
+<div id="sign-in-modal" class="sign-window">
+  <div class="sign-in">
+    <a href="#" title="Close" class="sign-close">Close</a>
+        
+    <div class="sign-form">
+      <form style="width: 100%;">
+          <h2>Sign in HouseFashion</h2>
+          <p>Welcome back to HouseFashion Enter your email to get started.</p>
+          <input type="text" placeholder="Email">
+          <input type="Password" placeholder="Enter Password">
+          <label style="margin: 0;"><input type="checkbox" name=""> Remember me </label>
+          <label style="margin: 0;"> Forgot password?<a href="#"> Reset It</a></label>
+          <button style="margin-top: 4%;" type="submit">Sign In</button>
+          <label> Don’t have an account? <a href="#"> Sign Up</a></label>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== modal ===================== -->
+
+
+<!-- add to cart modal -->
+
+
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="false">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="show-cart table">
+          
+        </table>
+        <div>Total price: $<span class="total-cart"></span></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Order now</button>
+        <button class="clear-cart btn btn-danger">Clear Cart</button>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<a href="https://api.whatsapp.com/send?phone=123456789&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+<i class="fa-brands fa-whatsapp my-float"></i>
+</a>
+
+<a id="button"></a>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+   
+<script>
+
+
+ $('.slider-nav').slick({
+   slidesToShow: 5,
+   slidesToScroll: 3,
+   autoplay:true,
+   infinite: true,
+
+
+ });
+
+ $('a[data-slide]').click(function(e) {
+   e.preventDefault();
+   var slideno = $(this).data('slide');
+   $('.slider-nav').slick('slickGoTo', slideno - 1);
+ });
+
+</script>
+
+</html>
